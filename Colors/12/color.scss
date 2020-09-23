@@ -1,0 +1,28 @@
+$primaryColor:#F6F4F2;
+$secondaryColor:#425664;
+$subtle:#C6AD8F;
+h1,
+a {
+    color: $primaryColor;
+}
+
+.Button,
+.Form__control {
+    border-color: $subtle;
+}
+
+.Button {
+    color: $primaryColor;
+}
+
+.Button {
+    &:focus,
+    &:hover {
+        background: $subtle;
+        color: #fff;
+    }
+}
+
+.Form__control:focus {
+    border-color: #ddd;
+}

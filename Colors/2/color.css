@@ -1,0 +1,23 @@
+h1,
+a {
+  color: #7F8688;
+}
+
+.Button,
+.Form__control {
+  border-color: #F3E367;
+}
+
+.Button {
+  color: #7F8688;
+}
+
+.Button:focus, .Button:hover {
+  background: #F3E367;
+  color: #fff;
+}
+
+.Form__control:focus {
+  border-color: #ddd;
+}
+/*# sourceMappingURL=color.css.map */
